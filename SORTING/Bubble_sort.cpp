@@ -6,7 +6,7 @@
 using namespace std;
 void bubbleSort(int arr[],int n){
     for(int i=0;i<n;i++){//loop ruuning for round
-
+ 
         bool swapped = false;
         
         for(int j=0;j<n-i;j++){//loop running for array
@@ -20,8 +20,7 @@ void bubbleSort(int arr[],int n){
             //already sorted
             break;
         }
-    }
-    
+    }  
 }
 int main(){
     

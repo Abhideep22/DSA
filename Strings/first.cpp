@@ -10,7 +10,7 @@ int getLength(char name[]){
 int main()
 {
     char name[20];
-    cout<<"Enter your name: ";
+    cout<<"Enter the name: "<<endl;
     cin>>name;
 
     //name[2]='\0';
